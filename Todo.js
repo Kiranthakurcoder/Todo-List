@@ -4,6 +4,8 @@ const btn = document.querySelector(".addBtn");
 const list = document.querySelector("#myUL");
 
 
+
+
 btn.addEventListener("click", () => {
     if (inputVal.value.trim() !== "") {
         const newlist = document.createElement("li");
